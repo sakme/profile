@@ -1,6 +1,6 @@
 /* begin general styling */
 :root {
-    --primary: #212121;
+    --primary: #000000;
     --secondary: #f4f815;
     --tertiary:  #f9fcb9;
 }
@@ -117,15 +117,80 @@ header a {
 }
 
 .main_div {
-    margin: 25px auto;
+    margin: 50px auto 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .main_div img {
-    margin-top: 25px;
+    margin-top: 50px;
 }
+
+.runbuddy_container, .runbuddy_bottom {
+    position: relative;
+    max-width: 400px;
+    margin: 0 0;
+  }
+  
+.runbuddy_container .runbuddy_bottom {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 400px;
+    padding: 20px 5px;
+  }
+
+.hidden_container, .hidden_bottom {
+    position: relative;
+    max-width: 400px;
+    margin: 0 0;
+  }
+  
+.hidden_container .hidden_bottom {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 400px;
+    padding: 20px 5px;
+  }
+
+.kashmir_container, .kashmir_bottom {
+    position: relative;
+    max-width: 400px;
+    margin: 0 0;
+}
+    
+.kashmir_container .kashmir_bottom {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 400px;
+    padding: 20px 5px;
+}
+
+.gourmand_container, .gourmand_bottom {
+    position: relative;
+    max-width: 400px;
+    margin: 0 0;
+}
+      
+.gourmand_container .gourmand_bottom {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 400px;
+    padding: 20px 5px;
+    }
+
 /* end work styling */
 
 /* begin contact styling */
