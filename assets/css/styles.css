@@ -1,8 +1,8 @@
 /* begin general styling */
 :root {
-    --primary: #5a5a5a;
-    --secondary: #66ccff;
-    --tertiary:  #66ffff;
+    --primary: #212121;
+    --secondary: #f4f815;
+    --tertiary:  #f9fcb9;
 }
 
 * {
@@ -10,5 +10,160 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 50px;
+}
+
+body {
+    background-color: var(--primary);
 }
 /* end general styling */
+
+/* begin header styling */
+header {
+    background-image: url(../images/background-cropped.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: var(--secondary);
+    font-weight: lighter;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    font-size: 2.0vw;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    color: var(--secondary);
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    font-size: 1.5vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    font-weight: lighter;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+/* end header styling */
+
+/* begin about me styling */
+.about {
+    background-image: url(../images/background-cropped.png);
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about div {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.about h2 {
+    color: var(--secondary);
+    font-size: 2.0vw;
+    font-weight: lighter;
+    width: 100%;
+    margin: 50px auto 0 auto;
+}
+
+.about p {
+    color: var(--tertiary);
+    margin: 50px auto;
+    width: 60%;
+    font-size: 1.5vw;
+}
+/* end about me styling */
+
+/* begin work styling */
+.work div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.work h2 {
+    color: var(--secondary);
+    font-size: 2.0vw;
+    font-weight: lighter;
+    max-width: 100%;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+.main_div {
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main_div img {
+    margin-top: 25px;
+}
+/* end work styling */
+
+/* begin contact styling */
+
+/* end contact styling */
+
+/* resume styling */
+
+/* end resume styling */
+
+/* begin footer styling */
+footer {
+    text-align: center;
+    color: var(--secondary);
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 1.5;
+}
+/* end footer styling */
+
+
+/* begin responsive styling */
+/* media query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+    
+}
+
+
+
+/* media query for tablets and smaller */
+@media  screen and (max-width: 768px) {
+
+}
+
+
+
+/* media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+
+}
+/* end responsive styling */
