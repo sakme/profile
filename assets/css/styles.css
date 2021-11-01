@@ -123,74 +123,21 @@ header a {
     justify-content: space-evenly;
 }
 
-.main_div img {
-    margin-top: 50px;
-}
-
-.runbuddy_container, .runbuddy_bottom {
+.container {
     position: relative;
-    max-width: 400px;
+    max-width: 100%;
     margin: 0 0;
-  }
+}
   
-.runbuddy_container .runbuddy_bottom {
+.container .bottom {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 400px;
-    padding: 20px 5px;
-  }
-
-.hidden_container, .hidden_bottom {
-    position: relative;
-    max-width: 400px;
-    margin: 0 0;
-  }
-  
-.hidden_container .hidden_bottom {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 400px;
-    padding: 20px 5px;
-  }
-
-.kashmir_container, .kashmir_bottom {
-    position: relative;
-    max-width: 400px;
-    margin: 0 0;
+    width: 100%;
+    padding: 20px 20px;
 }
-    
-.kashmir_container .kashmir_bottom {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 400px;
-    padding: 20px 5px;
-}
-
-.gourmand_container, .gourmand_bottom {
-    position: relative;
-    max-width: 400px;
-    margin: 0 0;
-}
-      
-.gourmand_container .gourmand_bottom {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 400px;
-    padding: 20px 5px;
-    }
-
 /* end work styling */
 
 /* begin contact styling */
