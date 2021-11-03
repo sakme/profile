@@ -88,10 +88,10 @@ header a {
     color: var(--secondary);
     font-size: 2.0vw;
     font-weight: lighter;
-    width: 30%;
+    width: 25%;
     margin: 50px auto 0 auto;
     text-align: center;
-    border-bottom: 2px solid var(--tertiary);
+    border-bottom: 1px solid var(--tertiary);
 }
 
 .about p {
@@ -113,10 +113,10 @@ header a {
     color: var(--secondary);
     font-size: 2.0vw;
     font-weight: lighter;
-    width: 30%;
+    width: 25%;
     margin: 50px auto 0 auto;
     text-align: center;
-    border-bottom: 2px solid var(--tertiary);
+    border-bottom: 1px solid var(--tertiary);
 }
 
 .main_div {
@@ -130,7 +130,6 @@ header a {
     position: relative;
     max-width: 100%;
     margin: 0 0;
-    overflow: hidden;
 }
   
 .container .bottom {
@@ -149,10 +148,10 @@ header a {
     color: var(--secondary);
     font-size: 2.0vw;
     font-weight: lighter;
-    max-width: 30%;
+    max-width: 25%;
     margin: 50px auto 0 auto;
     text-align: center;
-    border-bottom: 2px solid var(--tertiary);
+    border-bottom: 1px solid var(--tertiary);
 }
 .contacts {
     display: flex;
@@ -183,7 +182,7 @@ footer {
     text-align: center;
     color: var(--tertiary);
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 8px;
     line-height: 1.5;
     margin: 50px auto;
 }
