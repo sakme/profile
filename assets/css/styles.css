@@ -88,8 +88,10 @@ header a {
     color: var(--secondary);
     font-size: 2.0vw;
     font-weight: lighter;
-    width: 100%;
+    width: 30%;
     margin: 50px auto 0 auto;
+    text-align: center;
+    border-bottom: 2px solid var(--tertiary);
 }
 
 .about p {
@@ -111,9 +113,10 @@ header a {
     color: var(--secondary);
     font-size: 2.0vw;
     font-weight: lighter;
-    max-width: 100%;
+    width: 30%;
     margin: 50px auto 0 auto;
     text-align: center;
+    border-bottom: 2px solid var(--tertiary);
 }
 
 .main_div {
@@ -127,6 +130,7 @@ header a {
     position: relative;
     max-width: 100%;
     margin: 0 0;
+    overflow: hidden;
 }
   
 .container .bottom {
@@ -141,7 +145,33 @@ header a {
 /* end work styling */
 
 /* begin contact styling */
+.contact h2 {
+    color: var(--secondary);
+    font-size: 2.0vw;
+    font-weight: lighter;
+    max-width: 30%;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    border-bottom: 2px solid var(--tertiary);
+}
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 50px auto 50px auto;
+}
 
+.contacts div {
+    max-width: 20%;
+    margin: 0 20px;
+}
+
+.contacts div a {
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 1.75vw;
+}
 /* end contact styling */
 
 /* resume styling */
@@ -151,10 +181,11 @@ header a {
 /* begin footer styling */
 footer {
     text-align: center;
-    color: var(--secondary);
+    color: var(--tertiary);
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 10px;
     line-height: 1.5;
+    margin: 50px auto;
 }
 /* end footer styling */
 
