@@ -168,6 +168,7 @@ header a {
 .container img {
   max-width: 300px;
   max-height: 300px;
+  margin: 5px;
 }
 
 .container .bottom {
@@ -234,7 +235,7 @@ footer {
 
 /* begin responsive styling */
 /* media query for smaller desktop screens and smaller */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1100px) {
   header h1 {
     font-size: 2.25vw;
   }
@@ -245,14 +246,29 @@ footer {
 
   .about h2 {
     font-size: 2.25vw;
+    margin: 10px 0 0 0;
+  }
+
+  .about-image img {
+    max-height: 250px;
   }
 
   .work h2 {
     font-size: 2.25vw;
+    margin: 20px auto;
+  }
+
+  .feature_container img {
+    max-height: 250px;
   }
 
   .main_div div {
+    flex-basis: 100%;
     margin-bottom: 20px;
+  }
+
+  .container img {
+    max-height: 250px;
   }
 
   .contact h2 {
@@ -265,6 +281,7 @@ footer {
 
   footer {
     font-size: 0.5vw;
+    margin: 20px auto;
   }
 
   .about p {
@@ -286,12 +303,20 @@ footer {
     font-size: 2.5vw;
   }
 
+  .about-image img {
+    max-height: 200px;
+  }
+
   .work h2 {
     font-size: 2.5vw;
   }
 
-  .main_div div {
-    margin-bottom: 20px;
+  .feature_container img {
+    max-height: 200px;
+  }
+
+  .container img {
+    max-height: 200px;
   }
 
   .contacts {
@@ -300,6 +325,7 @@ footer {
 
   .contact h2 {
     font-size: 2.5vw;
+    margin: 0 auto;
   }
 
   .contacts div a {
@@ -329,12 +355,28 @@ footer {
     font-size: 2.75vw;
   }
 
+  .about-image div {
+    flex-basis: 100%;
+  }
+
+  .about-image img {
+    max-height: 150px;
+  }
+
   .work h2 {
     font-size: 2.75vw;
   }
 
+  .feature_container img {
+    max-height: 150px;
+  }
+
   .main_div div {
     margin-bottom: 20px;
+  }
+
+  .container img {
+    max-height: 150px;
   }
 
   .contacts {
@@ -377,12 +419,24 @@ footer {
     font-size: 3.5vw;
   }
 
+  .about-image img {
+    max-height: 125px;
+  }
+
   .work h2 {
     font-size: 3.5vw;
   }
 
+  .feature_container img {
+    max-height: 125px;
+  }
+
   .main_div div {
     margin-bottom: 20px;
+  }
+
+  .container img {
+    max-height: 150px;
   }
 
   .contacts {
