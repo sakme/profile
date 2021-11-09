@@ -403,27 +403,27 @@ footer {
 /* media query for low resmobile phones and smaller */
 @media screen and (max-width: 400px) {
   header h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   header nav ul li a {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .about h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .about p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .about-image img {
-    max-height: 125px;
+    max-height: 150px;
   }
 
   .work h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .feature_container img {
@@ -431,7 +431,7 @@ footer {
   }
 
   .main_div div {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
   }
 
   .container img {
@@ -443,7 +443,7 @@ footer {
   }
 
   .contact h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .contacts div a {
