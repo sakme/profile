@@ -88,7 +88,6 @@ header a {
   color: var(--secondary);
   font-size: 2vw;
   font-weight: lighter;
-  /* width: 25%; */
   margin: 50px auto 0 auto;
   text-align: center;
   border-bottom: 1px solid var(--tertiary);
@@ -189,25 +188,31 @@ header a {
 /* end work styling */
 
 /* begin contact styling */
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .contact h2 {
   color: var(--secondary);
   font-size: 2vw;
   font-weight: lighter;
-  max-width: 25%;
   margin: 50px auto 0 auto;
   text-align: center;
   border-bottom: 1px solid var(--tertiary);
+  flex-basis: 100%;
 }
 .contacts {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 100%;
+  flex-basis: 100%;
   margin: 50px auto 50px auto;
 }
 
 .contacts div {
-  max-width: 20%;
+  /* max-width: 20%; */
   margin: 0 20px;
 }
 
@@ -223,7 +228,7 @@ footer {
   text-align: center;
   color: var(--tertiary);
   font-weight: lighter;
-  font-size: 0.5vw;
+  font-size: 0.35vw;
   line-height: 1.5;
   margin: 50px auto;
 }
